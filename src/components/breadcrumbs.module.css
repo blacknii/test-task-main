@@ -1,0 +1,26 @@
+.breadcrumbs {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #457b9d;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 3rem;
+}
+
+.breadcrumbs a {
+  color: #457b9d;
+  text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+  color: #e63946;
+}
+
+.breadcrumbs a::after {
+  content: " - ";
+  color: #1d3557;
+}
+
+.breadcrumbs a:last-child::after {
+  content: "";
+}
